@@ -1,0 +1,41 @@
+:root{
+    --background:rgb(8, 8, 8);
+    --text_spec:rgb(190, 190, 190);
+    --text_plain:#848484;
+}
+
+/* иконку темы чуть вдвигаем */
+.icon-eye{
+    margin-right: 3%;
+}
+
+/* Устанавливаем везде фон */
+html, #main, .row, .col-md-10 .col-md-offset-1, .col-md-12 .page-body, #mc-form, .col-md-8 .col-md-offset-2, .page-body, .preloader,.header-search, .about-author {
+    background: var(--background) !important;
+}
+
+/* цвет заголовков и жирного*/
+h1, h2, h3, h4, h5, h6, b{
+    color:var(--text_spec) !important;
+}
+
+/* цвет обычного текста */
+p, li, ul, .grean{
+    color:var(--text_plain) !important;
+}
+
+
+/* цвет ссылок */
+a{
+    color:#1abc9c !important;
+}
+
+a:hover{
+    color:var(--text_spec) !important;
+}
+
+
+/* исключения */
+.social-icon li a{
+    color: white !important;
+}
