@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, b{
 }
 
 /* цвет обычного текста */
-p, li, ul, .grean{
+p, li, ul, .grean, th, td{
     color:var(--text_plain) !important;
 }
 
@@ -38,4 +38,23 @@ a:hover{
 /* исключения */
 .social-icon li a{
     color: white !important;
+}
+
+
+.tb-content{
+    display: flex;
+    margin-top: 1%;
+}
+
+.icons{
+    display: flex;
+}
+
+.tb-th-content{
+    width: 95%;
+}
+
+.icons-admin-panel{
+    font-size: 20px;
+    margin-left: 5px;
 }
