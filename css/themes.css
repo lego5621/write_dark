@@ -58,3 +58,11 @@ a:hover{
     font-size: 20px;
     margin-left: 5px;
 }
+
+.ql-toolbar .ql-snow{
+    color:var(--text_spec) !important;
+}
+
+/* .ql-toolbar.ql-snow+.ql-container.ql-snow{
+    border: 0;
+} */
