@@ -59,10 +59,17 @@ a:hover{
     margin-left: 5px;
 }
 
-.ql-toolbar .ql-snow{
-    color:var(--text_spec) !important;
+/* summernote editor */
+
+.note-editable{
+    background: var(--background) !important;
 }
 
-/* .ql-toolbar.ql-snow+.ql-container.ql-snow{
-    border: 0;
-} */
+.note-toolbar{
+    background: var(--background) !important;
+}
+
+.note-status-output{
+    background: var(--background) !important;
+}
+
