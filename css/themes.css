@@ -73,3 +73,82 @@ a:hover{
     background: var(--background) !important;
 }
 
+/* login style */
+.login100-form .validate-form .flex-sb .flex-w{
+    background: white !important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: Ubuntu-Regular, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container-login100{
+    background: var(--background) !important;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.input100{
+    background: white !important;
+    margin: 2% 0 2% 0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid ;
+    font-family: 'Ubuntu', sans-serif;
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 62px;
+    padding: 0 20px 0 38px;
+}
+
+.login100-form-btn{
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none !important;
+    border: none;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 62px;
+    background-color: #1abc9c;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+.but_themes_login{
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+}
+
+.but_themes_login a  {
+    font-size: 30px;
+}
